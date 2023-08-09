@@ -22,6 +22,7 @@ public void clickCartBagItems() throws InterruptedException {
 
 	driver.findElement(cartBag).click();
 	Thread.sleep(1000);
+	System.out.println("********");
 
 	driver.findElement(proceedChekOut).click();
 }
